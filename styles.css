@@ -1,0 +1,45 @@
+/* Remove padding and margin */
+*
+    {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+body {
+	width: 320px;
+	border: 1px solid #333;
+	text-align: left;
+
+}
+div {
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+  	/* align-items: center; */
+
+}
+h3 {
+	padding: 10px;
+	margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+	border: 1px solid #cc0;
+	justify-content: flex-start;
+}
+img {
+	padding: 5px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	border: 1px solid #0cf;
+}
+p {
+	border: 1px solid #0f9;
+}
+ul {
+	list-style-type: none;
+	border: 1px solid #f6f;
+}
+li {
+	border: 1px solid #f96;
+}
